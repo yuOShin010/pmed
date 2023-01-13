@@ -302,28 +302,28 @@
                     </li>
                     <!-- End Dashboard Nav -->
 
-                    <li>
-                        <a href="./pmed-RegistryManagement.html">
+                    <li class="nav-item">
+                        <a href="./pmed-RegistryManagement.php">
                             <i class="bi bi-circle"></i><span>Registry Management</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a href="./pmed-distributeManagement.html">
                             <i class="bi bi-circle"></i><span>Distribute Management</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a href="./pmed-validation.html">
                             <i class="bi bi-circle"></i><span>Validation</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a href="./pmed-history.html">
                             <i class="bi bi-circle"></i><span>History</span>
                         </a>
                     </li>
-                    <li>
-                        <a class="nav-link" href="./audit-trail.html">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./audit-trail.html">
                             <i class="bi bi-grid"></i><span>Audit Trail</span>
                         </a>
                     </li>
@@ -348,6 +348,66 @@
             </nav>
         </div>
         <!-- End Page Title -->
+
+        <div class="section">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title text-dark">Activity Log</h5>
+                        </div>
+                        <div class="card-body p-3">
+                            <!-- Tabs Header -->
+                            <nav>
+                                <div class="nav nav-tabs" id="nav-tabs" role="tablist">
+                                    <button class="nav-link active" id="today-tab" data-bs-toggle="tab" data-bs-target="#nav-today" aria-controls="nav-today" aria-selected="true">Today</button>
+                                    <button class="nav-link text-secondary" id="yesterday-tab" data-bs-toggle="tab" data-bs-target="#nav-yesterday" aria-controls="nav-yesterday" aria-selected="false">Yesterday</button>
+                                </div>
+                            </nav>
+                            <!-- end -->
+
+                            <!-- content -->
+                            <div class="tab-content p-3" id="tab-Content">
+                                <div class="tab-pane fade show active" id="nav-today" role="tabpanel" aria-labelledby="today-tab">
+                                    
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-justify" scope="row">id</th>
+                                                    <th class="text-justify" scope="row">event</th>
+                                                    <th class="text-justify" scope="row">user</th>
+                                                    <th class="text-justify" scope="row">details</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-justify" scope="row">0111</td>
+                                                    <td class="text-justify" scope="row">Uploaded file</td>
+                                                    <td class="text-justify" scope="row">MIS</td>
+                                                    <td class="text-justify" scope="row">date&time....</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                   
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-yesterday" role="tabpanel" aria-labelledby="yesterday-tab">
+                                        <table class="table table-bordered">
+                                            <tr>
+                                                <th class="text-justify" scope="row">id</th>
+                                                <th class="text-justify" scope="row">event</th>
+                                                <th class="text-justify" scope="row">user</th>
+                                                <th class="text-justify" scope="row">details</th>
+                                            </tr>
+                                        </table>
+                                </div>
+                            </div>
+                            <!-- end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
 
