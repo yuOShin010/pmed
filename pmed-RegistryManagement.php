@@ -1,4 +1,5 @@
 <?php 
+require_once('profiling.php');
 require_once('php/database.php');
 $pdo = $classQa->openConnection();
 ?>
@@ -234,7 +235,7 @@ $pdo = $classQa->openConnection();
 
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                         <li class="dropdown-header">
-                            <img src="./assets/img/default.jpg" alt="Profile" class="rounded-circle w-50 h-50">
+                            <img src="./assets/profile/default.jpg" alt="Profile" class="rounded-circle w-50 h-50">
                             <h6>Doc. Cha</h6>
                             <span>@email</span>
                         </li>
@@ -243,9 +244,10 @@ $pdo = $classQa->openConnection();
                         </li>
 
                         <li>
-                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                                <i class="bi bi-person"></i>
-                                <span>My Profile</span>
+                            <a class="dropdown-item d-flex align-items-center" href="#Customize-profile">
+                                <i class="bi bi-person"></i>      
+                                    <span class="w-100" title="add" data-bs-toggle="modal" data-bs-target="#student_addmodal">
+                                    My Profile</span>
                             </a>
                         </li>
                         <li>
@@ -342,8 +344,8 @@ $pdo = $classQa->openConnection();
                 <div class="col-lg-8">
                     <div class="card">
                         <div class="card-body p-4 shadow-lg">
-                            <div class="pagetitle">
-                                <div class="row">
+                            <div class="card-header">
+                                <div class="row mb-3">
                                     <div class="col-lg-10">
                                         <h3>List of Survey Instrument</h3>
                                     </div>
@@ -401,7 +403,7 @@ $pdo = $classQa->openConnection();
         </div>
     </div>
     
-    <div class="table-wrapper-scroll-y my-custom-scrollbar p-3">
+    <div class="table-wrapper-scroll-y my-custom-scrollbar">
         <table class="table table-light table-bordered table-hover">
             <thead class="">
                 <th class="text-center">
