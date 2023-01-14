@@ -1,0 +1,311 @@
+Lesson Proper for Week 1
+What is Big Data Analytics?
+
+ 
+
+BigData analytics is a process used to extract meaningful insights, such as hidden patterns, unknown correlations, market trends, and customer preferences. Big Data analytics provides various advantages—it can be used for better decision making, preventing fraudulent activities, among other things.
+
+ 
+
+What is Big Data?
+
+Big Data is a massive amount of data sets that cannot be stored, processed, or analyzed using traditional tools.
+
+Today, there are millions of data sources that generate data at a very rapid rate. These data sources are present across the world. Some of the largest sources of data are social media platforms and networks. Let’s use Facebook as an example—it generates more than 500 terabytes of data every day. This data includes pictures, videos, messages, and more.
+
+Data also exists in different formats, like structured data, semi-structured data, and unstructured data. For example, in a regular Excel sheet, data is classified as structured data—with a definite format. In contrast, emails fall under semi-structured, and your pictures and videos fall under unstructured data. All this data combined makes up Big Data.
+
+But, Big Data in its raw form is of no use. So, now let us understand Big Data Analytics.
+
+Let’s look into the four advantages of Big Data analytics.
+
+ 
+
+Benefits & Advantages of Big Data Analytics
+
+1. Risk Management
+
+Use Case: Banco de Oro, a Phillippine banking company, uses Big Data analytics to identify fraudulent activities and discrepancies. The organization leverages it to narrow down a list of suspects or root causes of problems.
+
+ 
+
+2. Product Development and Innovations
+
+Use Case: Rolls-Royce, one of the largest manufacturers of jet engines for airlines and armed forces across the globe, uses Big Data analytics to analyze how efficient the engine designs are and if there is any need for improvements.
+
+ 
+
+3. Quicker and Better Decision Making Within Organizations
+
+Use Case: Starbucks uses Big Data analytics to make strategic decisions. For example, the company leverages it to decide if a particular location would be suitable for a new outlet or not. They will analyze several different factors, such as population, demographics, accessibility of the location, and more.
+
+ 
+
+4. Improve Customer Experience
+
+Use Case: Delta Air Lines uses Big Data analysis to improve customer experiences. They monitor tweets to find out their customers’ experience regarding their journeys, delays, and so on. The airline identifies negative tweets and does what’s necessary to remedy the situation. By publicly addressing these issues and offering solutions, it helps the airline build good customer relations.
+
+ 
+
+What is Big Data?
+
+According to Gartner, the definition of Big Data –
+
+“Big data” is high-volume, velocity, and variety information assets that demand cost-effective, innovative forms of information processing for enhanced insight and decision making. This definition clearly answers the “What is Big Data?” question – Big Data refers to complex and large data sets that have to be processed and analyzed to uncover valuable information that can benefit businesses and organizations. However, there are certain basic tenets of Big Data that will make it even simpler to answer what  is Big Data:
+
+It refers to a massive amount of data that keeps on growing exponentially with time.
+It is so voluminous that it cannot be processed or analyzed using conventional data  processing techniques.
+It includes data mining, data storage, data analysis, data sharing, and data visualization.
+The term is an all-comprehensive one including data, data frameworks, along with the tools  and techniques used to process and analyze the data.
+ 
+
+The History of Big Data
+
+Although the concept of big data itself is relatively new, the origins of large data sets go back to the 1960s and '70s when the world of data was just getting started with the first data centers and  the development of the relational database.
+
+Around 2005, people began to realize just how much data users generated through Facebook, YouTube, and other online services. Hadoop (an open-source framework created specifically to store and analyze big data sets) was developed that same year. NoSQL also began to gain popularity during this time.
+
+The development of open-source frameworks, such as Hadoop (and more recently, Spark) was essential for the growth of big data because they make big data easier to work with and cheaper to store. In the years since then, the volume of big data has skyrocketed. Users are still generating huge amounts of data—but it’s not just humans who are doing it.
+
+With the advent of the Internet of Things (IoT), more objects and devices are connected to the internet, gathering data on customer usage patterns and product performance. The emergence of machine learning has produced still more data.
+
+While big data has come far, its usefulness is only just beginning. Cloud computing has expanded big data possibilities even further. The cloud offers truly elastic scalability, where developers can simply spin up ad hoc clusters to test a subset of data.
+
+Benefits of Big Data and Data Analytics
+
+Big data makes it possible for you to gain more complete answers because you have more information.
+More complete answers mean more confidence in the data—which means a completely different approach to tackling problems.
+ 
+
+Types of Big Data
+
+Now that we are on track with what is big data, let’s have a look at the types of big data:
+
+a) Structured
+
+Structured is one of the types of big data and By structured data, we mean data that can be processed, stored, and retrieved in a fixed format. It refers to highly organized information that can be readily and seamlessly stored and accessed from a database by simple search engine algorithms. For instance, the employee table in a company database will be structured as the employee details, their job positions, their salaries, etc., will be present in an organized manner.
+
+b) Unstructured
+
+Unstructured data refers to the data that lacks any specific form or structure whatsoever. This makes it very difficult and time-consuming to process and analyze unstructured data. Email is an example of unstructured data. Structured and unstructured are two important types of big data.
+
+c) Semi-structured
+
+Semi-structured is the third type of big data. Semi-structured data pertains to the data containing both the formats mentioned above, that is, structured and unstructured data. To be precise, it refers to the data that although has not been classified under a particular repository (database), yet contains vital information or tags that segregate individual elements within the data. Thus we come to the end of types of data.
+
+CHARACTERISTICS OF BIG DATA
+
+Back in 2001, Gartner analyst Doug Laney listed the 3 ‘V’s of Big Data – Variety, Velocity, and Volume. Let’s discuss the characteristics of big data.These characteristics, isolated, are enough to know what big data is. Let’s look at them in depth:
+
+a) Variety
+
+Variety of Big Data refers to structured, unstructured, and semi-structured data that is gathered from multiple sources. While in the past, data could only be collected from spreadsheets and databases, today data comes in an array of forms such as emails, PDFs, photos, videos, audios, SM posts, and so much more. Variety is one of the important characteristics of big data.
+
+b) Velocity
+
+Velocity essentially refers to the speed at which data is being created in real-time. In a broader prospect, it comprises the rate of change, linking of incoming data sets at varying speeds, and activity bursts.
+
+c) Volume
+
+Volume is one of the characteristics of big data. We already know that Big Data indicates huge ‘volumes’ of data that is being generated on a daily basis from various sources like social media platforms, business processes, machines, networks, human interactions, etc. Such a large amount of data is stored in data warehouses. Thus comes to the end of characteristics of big data.
+
+Why is Big Data Important?
+
+The importance of big data does not revolve around how much data a company has but how a company utilizes the collected data. Every company uses data in its own way; the more efficiently a company uses its data, the more potential it has to grow. The company can take data from any source and analyze it to find answers which will enable:
+
+1. Cost Savings: Some tools of Big Data like Hadoop and Cloud-Based Analytics can bring cost advantages to business when large amounts of data are to be stored and these tools also help in identifying more efficient ways of doing business.
+
+2. Time Reductions: The high speed of tools like Hadoop and in-memory analytics can easily identify new sources of data which helps businesses analyzing data immediately and make quick decisions based on the learning.
+
+3. Understand the market conditions: By analyzing big data you can get a better understanding of current market conditions. For example, by analyzing customers’ purchasing behaviors, a company can find out the products that are sold the most and produce products according to this trend. By this, it can get ahead of its competitors.
+
+4. Control online reputation: Big data tools can do sentiment analysis. Therefore, you can get feedback about who is saying what about your company. If you want to monitor and improve the online presence of your business, then, big data tools can help in all this.
+
+5. Using Big Data Analytics to Boost Customer Acquisition and Retention
+
+The customer is the most important asset any business depends on. There is no single business that can claim success without first having to establish a solid customer base.
+
+However, even with a customer base, a business cannot afford to disregard the highcompetition it faces. If a business is slow to learn what customers are looking for, then it is very easy to begin offering poor quality products. In the end, loss of clientele will result, and this creates an adverse overall effect on business success. The use of big data allows businesses to observe various customer related patterns and trends. Observing customer behavior is important to trigger loyalty.
+
+6. Using Big Data Analytics to Solve Advertisers Problem and Offer Marketing Insights
+
+Big data analytics can help change all business operations. This includes the ability to match customer expectation, changing company’s product line and of course ensuring that the marketing campaigns are powerful.
+
+7. Big Data Analytics As a Driver of Innovations and Product Development
+
+Another huge advantage of big data is the ability to help companies innovate and redevelop their products.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Lifecycle Phases of Big Data Analytics
+
+Now, let’s review how Big Data analytics works:
+
+Stage 1 - Business case evaluation - The Big Data analytics lifecycle begins with a business case, which defines the reason and goal behind the analysis.
+Stage 2 - Identification of data - Here, a broad variety of data sources are identified.
+Stage 3 - Data filtering - All of the identified data from the previous stage is filtered here to remove corrupt data.
+Stage 4 - Data extraction - Data that is not compatible with the tool is extracted and then transformed into a compatible form.
+Stage 5 - Data aggregation - In this stage, data with the same fields across different datasets are integrated.
+Stage 6 - Data analysis - Data is evaluated using analytical and statistical tools to discover useful information.
+Stage 7 - Visualization of data - With tools like Tableau, Power BI, and QlikView, Big Data analysts can produce graphic visualizations of the analysis.
+Stage 8 - Final analysis result - This is the last step of the Big Data analytics lifecycle, where the final results of the analysis are made available to business stakeholders who will take action.
+ 
+
+Different Types of Big Data Analytics
+
+Here are the four types of Big Data analytics:
+
+1. Descriptive Analytics
+
+This summarizes past data into a form that people can easily read. This helps in creating reports, like a company’s revenue, profit, sales, and so on. Also, it helps in the tabulation of social media metrics.
+
+Use Case: The Dow Chemical Company analyzed its past data to increase facility utilization across its office and lab space. Using descriptive analytics, Dow was able to identify underutilized space. This space consolidation helped the company save nearly US $4 million annually.
+
+2. Diagnostic Analytics
+
+This is done to understand what caused a problem in the first place. Techniques like drill-down, data mining, and data recovery are all examples. Organizations use diagnostic analytics because they provide an in-depth insight into a particular problem.
+
+Use Case: An e-commerce company’s report shows that their sales have gone down, although customers are adding products to their carts. This can be due to various reasons like the form didn’t load correctly, the shipping fee is too high, or there are not enough payment options available. This is where you can use diagnostic analytics to find the reason. 
+
+3. Predictive Analytics
+
+This type of analytics looks into the historical and present data to make predictions of the future. Predictive analytics uses data mining, AI, and machine learning to analyze current data and make predictions about the future. It works on predicting customer trends, market trends, and so on.
+
+Use Case: PayPal determines what kind of precautions they have to take to protect their clients against fraudulent transactions. Using predictive analytics, the company uses all the historical payment data and user behavior data and builds an algorithm that predicts fraudulent activities.
+
+4. Prescriptive Analytics
+
+This type of analytics prescribes the solution to a particular problem. Perspective analytics works with both descriptive and predictive analytics. Most of the time, it relies on AI and machine learning.
+
+Use Case: Prescriptive analytics can be used to maximize an airline’s profit. This type of analytics is used to build an algorithm that will automatically adjust the flight fares based on numerous factors, including customer demand, weather, destination, holiday seasons, and oil prices.
+
+Big Data Analytics Tools
+
+Here are some of the key big data analytics tools :
+
+Hadoop - helps in storing and analyzing data
+MongoDB - used on datasets that change frequently
+Talend - used for data integration and management
+Cassandra - a distributed database used to handle chunks of data
+Spark - used for real-time processing and analyzing large amounts of data
+STORM - an open-source real-time computational system
+Kafka - a distributed streaming platform that is used for fault-tolerant storage
+ 
+
+Big Data Industry Applications
+
+Here are some of the sectors where Big Data is actively used:
+
+ 
+
+Ecommerce - Predicting customer trends and optimizing prices are a few of the ways e-commerce uses Big Data analytics
+
+Marketing - Big Data analytics helps to drive high ROI marketing campaigns, which result in improved sales
+
+Education - Used to develop new and improve existing courses based on market requirements
+
+Healthcare - With the help of a patient’s medical history, Big Data analytics is used to predict how likely they are to have health issues
+
+Media and entertainment - Used to understand the demand of shows, movies, songs, and more to deliver a personalized recommendation list to its users
+
+Banking - Customer income and spending patterns help to predict the likelihood of choosing various banking offers, like loans and credit cards
+
+Telecommunications - Used to forecast network capacity and improve customer experience
+
+Government - Big Data analytics helps governments in law enforcement, among other things..
+
+-------------------------------------------------------------------------------------------------------------
+
+Lesson Proper for Week 2
+What is Spark?
+ 
+Apache Spark is an open-source, distributed processing system used for big data workloads. It utilizes in-memory caching and optimized query execution for fast queries against data of any size. Simply put, Spark is a fast and general engine for large-scale data processing.
+ 
+The fast part means that it’s faster than previous approaches to work with Big Data like classical MapReduce. The secret for being faster is that Spark runs on memory (RAM), and that makes the processing much faster than on disk drives.
+ 
+The general part means that it can be used for multiple things like running distributed SQL, creating data pipelines, ingesting data into a database, running Machine Learning algorithms, working with graphs or data streams, and much more.
+ 
+Components
+
+ 
+
+
+Apache Spark Core – Spark Core is the underlying general execution engine for the Spark platform that all other functionality is built upon. It provides in-memory computing and referencing datasets in external storage systems.
+Spark SQL – Spark SQL is Apache Spark’s module for working with structured data. The interfaces offered by Spark SQL provides Spark with more information about the structure of both the data and the computation being performed.
+Spark Streaming – This component allows Spark to process real-time streaming data. Data can be ingested from many sources like Kafka, Flume, and HDFS (Hadoop Distributed File System). Then the data can be processed using complex algorithms and pushed out to file systems, databases, and live dashboards.
+MLlib (Machine Learning Library) – Apache Spark is equipped with a rich library known as MLlib. This library contains a wide array of machine learning algorithms- classification, regression, clustering, and collaborative filtering. It also includes other tools for constructing, evaluating, and tuning ML Pipelines. All these functionalities help Spark scale out across a cluster.
+GraphX – Spark also comes with a library to manipulate graph databases and perform computations called GraphX. GraphX unifies ETL (Extract, Transform, and Load) process, exploratory analysis, and iterative graph computation within a single system.
+ 
+Why Spark?
+I think the following four main reasons from Apache Spark™ official website are good enough to convince you to use Spark.
+1.       Speed
+Run programs up to 100x faster than Hadoop MapReduce in memory, or 10x faster on disk.
+Apache Spark has an advanced DAG execution engine that supports acyclic data flow and in-memory computing.
+
+2.	Ease of Use 
+Write applications quickly in Java, Scala, Python, R.
+
+	Spark offers over 80 high-level operators that make it easy to build parallel apps. And you can use it
+interactively from the Scala, Python and R shells.
+
+
+3.	Generality
+Combine SQL, streaming, and complex analytics.
+Spark powers a stack of libraries including SQL and DataFrames, MLlib for machine learning,
+GraphX, and Spark Streaming. You can combine these libraries seamlessly in the same application. 
+4.	Runs Everywhere
+Spark runs on Hadoop, Mesos, standalone, or in the cloud. It can access diverse data sources including
+HDFS, Cassandra, HBase, and S3
+
+Modularity
+Spark operations can be applied across many types of workloads and expressed in any of the supported programming languages: Scala, Java, Python, SQL, and R. Spark offers unified libraries with well-documented APIs that include the following mod‐ ules as core components: Spark SQL, Spark Structured Streaming, Spark MLlib, and GraphX, combining all the workloads running under one engine. We’ll take a closer look at all of these in the next section.
+
+You can write a single Spark application that can do it all—no need for distinct engines for disparate workloads, no need to learn separate APIs. With Spark, you get a unified processing engine for your workloads.
+
+Extensibility
+Spark focuses on its fast, parallel computation engine rather than on storage. Unlike Apache Hadoop, which included both storage and compute, Spark decouples the two. That means you can use Spark to read data stored in myriad sources—Apache Hadoop, Apache Cassandra, Apache HBase, MongoDB, Apache Hive, RDBMSs, and
+more—and process it all in memory. Spark’s DataFrameReaders and DataFrame Writers can also be extended to read data from other sources, such as Apache Kafka, Kinesis, Azure Storage, and Amazon S3, into its logical data abstraction, on which it can operate.
+
+The community of Spark developers maintains a list of third-party Spark packages as part of the growing ecosystem (see Figure ). This rich ecosystem of packages includes Spark connectors for a variety of external data sources, performance monitors, and more.
+
+Hadoop and Spark
+Hadoop as a big data processing technology has been around for 10 years and has proven to be the solution of choice for processing large data sets. MapReduce is a great solution for one-pass computations, but not very efficient for use cases that require multi-pass computations and algorithms. Each step in the data processing workflow has one Map phase and one Reduce phase and you'll need to convert any use case into MapReduce pattern to leverage this solution.
+ 
+The Job output data between each step has to be stored in the distributed file system before the next step can begin. Hence, this approach tends to be slow due to replication & disk storage. Also, Hadoop solutions typically include clusters that are hard to set up and manage. It also requires the integration of several tools for different big data use cases (like Mahout for Machine Learning and Storm for streaming data processing).
+ 
+If you wanted to do something complicated, you would have to string together a series of MapReduce jobs and execute them in sequence. Each of those jobs was high-latency, and none could start until the previous job had finished completely.
+ 
+Spark allows programmers to develop complex, multi-step data pipelines using directed acyclic graph (DAG) pattern. It also supports in-memory data sharing across DAGs, so that different jobs can work with the same data.
+ 
+Spark runs on top of existing Hadoop Distributed File System (HDFS) infrastructure to provide enhanced and additional functionality. It provides support for deploying Spark applications in an existing Hadoop v1 cluster (with SIMR – Spark-Inside-MapReduce) or Hadoop v2 YARN cluster or even Apache Mesos.
+We should look at Spark as an alternative to Hadoop MapReduce rather than a replacement to Hadoop. It’s not intended to replace Hadoop but to provide a comprehensive and unified solution to manage different big data use cases and requirements.
+ 
+Spark Features
+Spark takes MapReduce to the next level with less expensive shuffles in the data processing. With capabilities like in-memory data storage and near real-time processing, the performance can be several times faster than other big data technologies.
+ 
+Spark also supports lazy evaluation of big data queries, which helps with optimization of the steps in data processing workflows. It provides a higher level API to improve developer productivity and a consistent architect model for big data solutions.
+ 
+Spark holds intermediate results in memory rather than writing them to disk which is very useful especially when you need to work on the same dataset multiple times. It’s designed to be an execution engine that works both in-memory and on-disk. Spark operators perform external operations when data does not fit in memory. Spark can be used for processing datasets that larger than the aggregate memory in a cluster.
+ 
+Spark will attempt to store as much as data in memory and then will spill to disk. It can store part of a data set in memory and the remaining data on the disk. You have to look at your data and use cases to assess the memory requirements. With this in-memory data storage, Spark comes with performance advantage.
+Other Spark features include:
+•           Supports more than just Map and Reduce functions.
+•           Optimizes arbitrary operator graphs.
+•           Lazy evaluation of big data queries which helps with the optimization of the overall data processing workflow.
+•           Provides concise and consistent APIs in Scala, Java and Python.
+•           Offers interactive shell for Scala and Python. This is not available in Java yet.
+ 
+Spark is written in Scala Programming Language and runs on Java Virtual Machine (JVM) environment. It currently supports the following languages for developing applications using Spark:
+•           Scala
+•           Java
+•           Python
+•           Clojure
+•           R

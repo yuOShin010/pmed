@@ -1,0 +1,364 @@
+ <tr>
+                                                <td class="text-center" scope="row">Survey Instrument 1</td>
+                                                <td class="text-center" scope="row">January 2, 2023</td>
+                                                <td class="text-center" scope="row">1 week</td>
+                                                <td class="text-center" scope="row">
+                                                    <button class="btn btn-primary bi bi-pencil-fill" title="edit" data-toggle="modal" data-target="#editSect" id="EditAct"></button>
+
+                                                    <!-- modal for edit section -->
+                                                    <div class="modal fade" id="editSect" tabindex="-1" role="dialog" aria-labelledby="editSectLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title">Edit Survey instrument</h5>
+                                                                    <button class="close" title="close" type="button" data-dismiss="modal" aria-label="close">
+                                                                        <span aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                </div>
+                                                                <!-- EDIT SECTION -->
+                                                                <div class="modal-body">
+                                                                    <form>
+                                                                        <div class="dropdown">
+                                                                            <button class="btn btn-outline-secondary dropdown-toggle w-75" type="button" id="CourseList" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false"> List of Courses</button>
+
+                                                                            <div class="dropdown-menu p-4 w-75" aria-labelledby="CourseList">
+                                                                                <h1 class="dropdown-header">Courses</h1>
+                                                                                <table class="table table-hover table-borderless">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <a href="#" class="Dropdown-items">Bachelor of Science in Information Tecnology</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <a href="#" class="Dropdown-items">Bachelor of Science in Criminology</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <a href="#" class="Dropdown-items">bachelor of Science Administrative</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <!-- End of Dropdown -->
+
+                                                                        <!-- INPUT SECTION -->
+                                                                        <div class="form-group">
+                                                                            <label class="col-form-label d-flex justify-content-lg-start">Instrument:</label>
+                                                                            <input title="Setting the title of survey instrument" type="text" class="form-control" placeholder="Title">
+                                                                            <label class="col-form-label d-flex justify-content-lg-start">Instrument:</label>
+                                                                            <input type="file" class="form-control" title="choose file from computer" placeholder="uploadfile">
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button class="btn btn-secondary" data-dismiss="modal" title="Discard Action">Cancel</button>
+                                                                    <button class="btn btn-primary" title="Save Changes">Upload</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end for edit Section -->
+
+                                                    <!-- DELETE SECTION -->
+                                                    <button class="btn btn-danger bi bi-trash-fill" title="Delete" data-toggle="modal" data-target="#delSect" id="delAct"></button>
+
+                                                    <!-- modal for DELETE section -->
+                                                    <div class="modal fade" id="delSect" tabindex="-1" role="dialog" aria-labelledby="delSectLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header bg-danger">
+                                                                    <button class="close" title="close" type="button" data-dismiss="modal" aria-label="close">
+                                                                        <span aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                </div>
+                                                                <!-- Modal body of DELETE SECTION -->
+                                                                <div class="modal-body">
+                                                                    <h5 class="modal-title pb-4">Are you sure you want to delete?</h5>
+                                                                    <button class="btn btn-secondary" data-dismiss="modal" title="Discard Action">Cancel</button>
+                                                                    <button class="btn btn-outline-danger" title="Delete the file">Delete</button> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end -->
+
+
+                                                    <!-- dropdown for option ICON -->
+                                                    <div class="btn-group">
+                                                        <button class="btn rounded btn-outline-info bi bi-three-dots-vertical" id="option2" data-toggle="dropdown" title="More" aria-haspopup="true" aria-expanded="false"></button>
+
+                                                        <div class="dropdown-menu" aria-labelledby="option2">
+                                                            <button class="dropdown-item">Hide</button>
+                                                            <button class="dropdown-item">Print</button>
+                                                            <button class="dropdown-item">Help?</button>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end  -->
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" scope="row ">Survey Instrument 2</td>
+                                                <td class="text-center" scope="row">January 2, 2023</td>
+                                                <td class="text-center" scope="row">1 week</td>
+                                                <td class="text-center" scope="row">
+                                                    <button class="btn btn-primary bi bi-pencil-fill" title="edit" data-toggle="modal" data-target="#editSect" id="EditAct"></button>
+
+                                                    <!-- modal for edit section -->
+                                                    <div class="modal fade" id="editSect" tabindex="-1" role="dialog" aria-labelledby="editSectLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title">Edit Survey instrument</h5>
+                                                                    <button class="close" title="close" type="button" data-dismiss="modal" aria-label="close">
+                                                                        <span aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                </div>
+                                                                <!-- EDIT SECTION -->
+                                                                <div class="modal-body">
+                                                                    <form>
+                                                                        <div class="dropdown">
+                                                                            <button class="btn btn-outline-secondary dropdown-toggle w-75" type="button" id="CourseList" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false"> List of Courses</button>
+
+                                                                            <div class="dropdown-menu p-4 w-75" aria-labelledby="CourseList">
+                                                                                <h1 class="dropdown-header">Courses</h1>
+                                                                                <table class="table table-hover table-borderless">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <a href="#" class="Dropdown-items">Bachelor of Science in Information Tecnology</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <a href="#" class="Dropdown-items">Bachelor of Science in Criminology</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <a href="#" class="Dropdown-items">bachelor of Science Administrative</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <!-- End of Dropdown -->
+
+                                                                        <!-- INPUT SECTION -->
+                                                                        <div class="form-group">
+                                                                            <label class="col-form-label d-flex justify-content-lg-start">Instrument:</label>
+                                                                            <input title="Setting the title of survey instrument" type="text" class="form-control" placeholder="Title">
+                                                                            <label class="col-form-label d-flex justify-content-lg-start">Instrument:</label>
+                                                                            <input type="file" class="form-control" title="choose file from computer" placeholder="uploadfile">
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button class="btn btn-secondary" data-dismiss="modal" title="Discard Action">Cancel</button>
+                                                                    <button class="btn btn-primary" title="Save Changes">Upload</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end for edit Section -->
+
+                                                    <!-- DELETE SECTION -->
+                                                    <button class="btn btn-danger bi bi-trash-fill" title="Delete" data-toggle="modal" data-target="#delSect" id="delAct"></button>
+
+                                                    <!-- modal for DELETE section -->
+                                                    <div class="modal fade" id="delSect" tabindex="-1" role="dialog" aria-labelledby="delSectLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header bg-danger">
+                                                                    <button class="close" title="close" type="button" data-dismiss="modal" aria-label="close">
+                                                                        <span aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                </div>
+                                                                <!-- Modal body of DELETE SECTION -->
+                                                                <div class="modal-body">
+                                                                    <h5 class="modal-title pb-4">Are you sure you want to delete?</h5>
+                                                                    <button class="btn btn-secondary" data-dismiss="modal" title="Discard Action">Cancel</button>
+                                                                    <button class="btn btn-outline-danger" title="Delete the file">Delete</button> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end -->
+
+
+                                                    <!-- dropdown for option ICON -->
+                                                    <div class="btn-group">
+                                                        <button class="btn rounded btn-outline-info bi bi-three-dots-vertical" id="option2" data-toggle="dropdown" title="More" aria-haspopup="true" aria-expanded="false"></button>
+
+                                                        <div class="dropdown-menu" aria-labelledby="option2">
+                                                            <button class="dropdown-item">Hide</button>
+                                                            <button class="dropdown-item">Print</button>
+                                                            <button class="dropdown-item">Help?</button>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end  -->
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center" scope="row ">Survey Instrument 3</td>
+                                                <td class="text-center" scope="row">January 2, 2023</td>
+                                                <td class="text-center" scope="row">1 week</td>
+                                                <td class="text-center" scope="row">
+                                                    <button class="btn btn-primary bi bi-pencil-fill" title="edit" data-toggle="modal" data-target="#editSect" id="EditAct"></button>
+
+                                                    <!-- modal for edit section -->
+                                                    <div class="modal fade" id="editSect" tabindex="-1" role="dialog" aria-labelledby="editSectLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title">Edit Survey instrument</h5>
+                                                                    <button class="close" title="close" type="button" data-dismiss="modal" aria-label="close">
+                                                                        <span aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                </div>
+                                                                <!-- EDIT SECTION -->
+                                                                <div class="modal-body">
+                                                                    <form>
+                                                                        <div class="dropdown">
+                                                                            <button class="btn btn-outline-secondary dropdown-toggle w-75" type="button" id="CourseList" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false"> List of Courses</button>
+
+                                                                            <div class="dropdown-menu p-4 w-75" aria-labelledby="CourseList">
+                                                                                <h1 class="dropdown-header">Courses</h1>
+                                                                                <table class="table table-hover table-borderless">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <a href="#" class="Dropdown-items">Bachelor of Science in Information Tecnology</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <a href="#" class="Dropdown-items">Bachelor of Science in Criminology</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <a href="#" class="Dropdown-items">bachelor of Science Administrative</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <!-- End of Dropdown -->
+
+                                                                        <!-- INPUT SECTION -->
+                                                                        <div class="form-group">
+                                                                            <label class="col-form-label d-flex justify-content-lg-start">Instrument:</label>
+                                                                            <input title="Setting the title of survey instrument" type="text" class="form-control" placeholder="Title">
+                                                                            <label class="col-form-label d-flex justify-content-lg-start">Instrument:</label>
+                                                                            <input type="file" class="form-control" title="choose file from computer" placeholder="uploadfile">
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button class="btn btn-secondary" data-dismiss="modal" title="Discard Action">Cancel</button>
+                                                                    <button class="btn btn-primary" title="Save Changes">Upload</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end for edit Section -->
+
+                                                    <!-- DELETE SECTION -->
+                                                    <button class="btn btn-danger bi bi-trash-fill" title="Delete" data-toggle="modal" data-target="#delSect" id="delAct"></button>
+
+                                                    <!-- modal for DELETE section -->
+                                                    <div class="modal fade" id="delSect" tabindex="-1" role="dialog" aria-labelledby="delSectLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header bg-danger">
+                                                                    <button class="close" title="close" type="button" data-dismiss="modal" aria-label="close">
+                                                                        <span aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                </div>
+                                                                <!-- Modal body of DELETE SECTION -->
+                                                                <div class="modal-body">
+                                                                    <h5 class="modal-title pb-4">Are you sure you want to delete?</h5>
+                                                                    <button class="btn btn-secondary" data-dismiss="modal" title="Discard Action">Cancel</button>
+                                                                    <button class="btn btn-outline-danger" title="Delete the file">Delete</button> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end -->
+
+
+                                                    <!-- dropdown for option ICON -->
+                                                    <div class="btn-group">
+                                                        <button class="btn rounded btn-outline-info bi bi-three-dots-vertical" id="option2" data-toggle="dropdown" title="More" aria-haspopup="true" aria-expanded="false"></button>
+
+                                                        <div class="dropdown-menu" aria-labelledby="option2">
+                                                            <button class="dropdown-item">Hide</button>
+                                                            <button class="dropdown-item">Print</button>
+                                                            <button class="dropdown-item">Help?</button>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end  -->
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="card bg-light shadow-md">
+                        <div class="card-body p-4">
+                            <div class="pagetitle p-4">
+                                <h5 class="text-primary">Recently Added</h5>
+                            </div>
+
+                            <table class="table table-hover table-light rounded">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center text-secondary">Title</th>
+                                        <th class="text-center text-secondary">Addedby</th>
+                                        <th class="text-center text-secondary">Details</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">Instrument 1</td>
+                                        <td class="text-center">Admin</td>
+                                        <td class="text-center">Uploaded on January 1st</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">Instrument 2</td>
+                                        <td class="text-center">Admin</td>
+                                        <td class="text-center">Uploaded on January 2nd</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-body shadow-md p-4">
+                            <div class="page-title">
+                                <h5 class="page-title">2nd row</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
